@@ -1,0 +1,1 @@
+Przyciski do wykorzystania na stronie
