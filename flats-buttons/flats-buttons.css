@@ -1,0 +1,36 @@
+p{
+  font-size: 24px;
+  font-family: 'Verdana';
+}
+
+.btn{
+  border: 1px solid #000;
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: .8rem 1rem;
+  letter-spacing: .2rem;
+ }
+
+.btn:hover{
+  background-color: #333;
+  color: #fff;
+  transition: color .5s ease-in-out;
+}
+
+.button-nav{
+  display: inline-block;
+  font-size: 1rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #000;
+  padding: .8rem 1rem;
+  border: 1px solid #000;
+  letter-spacing: .2rem;
+}
+
+.button-nav:hover {
+  color: #fff;
+  background-color: #000;
+  transition: background .5s ease-in-out;
+}
