@@ -1,2 +1,2 @@
 #### Adhesive footer ####
-Rozwiązanie problemu klejącej stopki
+Rozwiązanie problemu klejącej stopki za pomocą pozycji absolutnej
