@@ -1,0 +1,41 @@
+nav{
+  background-color: rgba(0, 0, 0, .8);
+  padding: 2rem;
+  
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  padding: 0.5rem 1rem;
+}
+
+.sigin-up {
+  border: 0.5px solid white;
+  border-radius: 9999px;
+}
+
+a:hover {
+  color: grey;
+  transition: color .3s ease-in-out;
+}
+
+.sigin-up:hover {
+  background: white;
+  color: black;
+  transition: background-color .15s ease-in-out;
+}
+
+
+
+p {
+  font-size: 1rem;
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 1.25rem;
+  padding: .5rem;
+}
+
