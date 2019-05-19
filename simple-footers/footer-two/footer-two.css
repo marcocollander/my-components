@@ -1,0 +1,25 @@
+body {
+  background: #cfcfcf;
+}
+
+.content {
+  background: #ae001d;
+  height: 200px;
+}
+
+
+
+.wrapper {
+  min-height: 90vh;
+  position: relative;
+  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background: #193a6a;
+}
