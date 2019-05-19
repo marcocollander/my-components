@@ -1,6 +1,12 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
 nav{
   background-color: rgba(0, 0, 0, .8);
-  padding: 2rem;
+  padding: 1rem;
   
 }
 
@@ -15,13 +21,13 @@ nav a {
 }
 
 .sigin-up {
-  border: 0.5px solid white;
+  border: 1px solid hsla(0,0%,100%,.2);
   border-radius: 9999px;
 }
 
-a:hover {
-  color: grey;
-  transition: color .3s ease-in-out;
+nav a:hover {
+  color: hsl(0, 0%, 77%);
+  transition: color .15s ease-in-out;
 }
 
 .sigin-up:hover {
@@ -37,5 +43,38 @@ p {
   font-family: 'Space Mono', monospace;
   margin-bottom: 1.25rem;
   padding: .5rem;
+  text-align: justify;
 }
 
+
+@media (min-width: 768px) {
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+   nav a {
+    float: right;
+    width: 25%;
+  }
+
+  .home {
+    float: left;
+  }
+  
+   /* Clearfix */
+    nav::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+   body {
+    width: 60%;
+    margin: 5.25rem auto 1.25rem;
+  }
+
+}
